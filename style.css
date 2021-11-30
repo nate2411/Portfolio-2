@@ -124,11 +124,11 @@ header .navbar ul{
 
 header .navbar ul li a{
     display: block;
-    padding:1rem;
+    padding:1px;
     margin:1.5rem 0;
     background:#333;
     color:#fff;
-    font-size: 2rem;
+    font-size: 15px;
     border-radius: 5rem;
 }
 
@@ -375,6 +375,73 @@ header .navbar ul li a:hover{
     font-size: medium;
 }
 
+  .bg {
+  
+    padding-bottom: 100px;
+  } 
+  
+  .inner {
+    padding-top: 100px;
+  } 
+  
+   .header {
+    text-align: center;
+    color: white;
+    padding: 1rem;
+  
+    font-size: 33px; 
+  }
+  .header after {
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    height: 4px;
+    width: 100px;
+    background-color: white;
+  } 
+  
+  .container2 {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  
+    padding: 1rem 80px;
+    font-size: 1.2rem;
+  }
+  
+  .skill-box {
+    padding: 1rem;
+    color: black;
+  }
+  
+  .skill-title {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0.5rem;
+    margin-bottom: 0.5rem;
+  }
+  
+  .img {
+    width: 90px;
+    font-size: 100px;
+    color: grey;
+  }
+  
+  .word {
+    color: white;
+    font-size: 20px;
+  }
+  
+  .img:hover {
+    color: #f9ca24;
+    transition: 0.3s all ease-in;
+    cursor: pointer;
+  }
+
 
 
 
@@ -461,3 +528,15 @@ header .navbar ul li a:hover{
     }
 
  }
+
+ @media screen and (max-width: 990px) {
+    .container2 {
+      grid-template-columns: repeat(2, 1fr);
+    }
+  }
+  
+  @media screen and (max-width: 650px) {
+    .container2 {
+      grid-template-columns: 1fr;
+    }
+  }

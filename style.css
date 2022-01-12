@@ -12,6 +12,7 @@
     outline: none; border:none;
     text-transform: capitalize;
     transition: all .2s linear;
+    scroll-behavior: smooth;
 }
 
 *::selection{
@@ -67,6 +68,7 @@ section{
 }
 
 .heading{
+    width: 100%;
     text-align: center;
     margin:0 6rem;
     font-size: 4rem;
@@ -76,7 +78,7 @@ section{
 }
 
 .heading span{
-    color:var(--yellow);
+    color: var(--yellow);
 }
 
 header{

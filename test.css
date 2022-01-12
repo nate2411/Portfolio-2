@@ -1,0 +1,76 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+testimonials-section{
+  display: grid;
+  height: 100%;
+  place-items:center;
+  text-align: center;
+  background: cornsilk;
+  padding: 200px;
+}
+
+.owl-stage{
+  padding-top : 55px;
+}
+
+.slider{
+  max-width: 1150px;
+  display: flex;
+
+}
+
+.slider .card{
+  background: black;
+  flex: 1;
+  margin: 0 100px;
+  padding: 20px;
+}
+
+.slider .card .img{
+  display: flex;
+  justify-content: center;
+  height: 100%;
+  width: 100%;
+}
+
+.slider .card .img  img{
+  height: 50%;
+  width: 75%;
+  object-fit: cover;
+
+}
+
+.slider .card .content {
+  padding: 10px 20px;
+}
+
+ .card .content .title{
+  font-size: 25px;
+  font-weight: 600;
+  color: white;
+ 
+  
+
+}
+
+.card .content .sub-title{
+  font-size: 20px;
+  font-weight: 600;
+  color: #f9ca24;
+  line-height: 20px;
+
+}
+.card .content p{
+  text-align: justify;
+  margin: 10px 0;
+  color: white;
+  font-size: 12px;
+
+}
+
+
